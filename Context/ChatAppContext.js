@@ -81,7 +81,7 @@ export const ChatAppProvider = ({ children }) => {
   };
 
   //ADD YOUR FRIENDS
-  const addFriends = async ({accountAddress,name}) => {
+  const addFriends = async ({ accountAddress, name }) => {
     // console.log(name);
     try {
       // if (name || accountAddress) return setError("Please provide data");

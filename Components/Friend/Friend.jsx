@@ -23,7 +23,7 @@ const Friend = () => {
     currentUserAddress,
     readUser,
   } = useContext(ChatAppContect);
-  console.log(friendLists);
+  // console.log(friendLists);
   return (
     <div className={Style.Friend}>
       <div className={Style.Friend_box}>

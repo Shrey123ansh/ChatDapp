@@ -10,6 +10,6 @@ async function main() {
 }
 
 main().catch((error) => {
-  console.error(error);
+  console.log(error.message.substring(73, 90)) // return only : Already on board
   process.exitCode = 1;
 });
